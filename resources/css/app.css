@@ -1,0 +1,8 @@
+body{
+    background-image:URL('data_file/Halaman Awal (ALUR ORTU).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    width:1000px;
+    height:1000px;
+}
