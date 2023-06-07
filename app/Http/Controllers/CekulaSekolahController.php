@@ -29,7 +29,7 @@ class CekulaSekolahController extends Controller
             'email' => 'required|email',
             'password' => ['required']
         ], [
-            'email.required' => 'Email Wajib Diisi',
+            'email.required' => 'Email wajib Diisi',
             'email.email' => 'Harus diisi dengan format @gmail.com',
             'password' => 'Password wajib diisi',
         ]);

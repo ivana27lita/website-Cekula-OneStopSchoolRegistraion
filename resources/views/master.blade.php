@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
     <script type="text/javascript">
         function myFunction() {
             var x = document.getElementById("password");
@@ -469,7 +470,7 @@
                 width: 100px;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: rgba(114, 221, 247,0.55);
+                background-color: #0c1992;
                 border-radius: 25px;
                 color: white;
                 font-weight: bold;

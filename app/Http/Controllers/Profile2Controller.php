@@ -30,7 +30,7 @@ class Profile2Controller extends Controller
 		'updated_at' => Carbon::now(),
 	]);
 
-	return redirect('/cekula/BerandaSekolah')->with('status2', 'nama berhasil terubah, silahkan cek kembali laman profil anda');
+	return redirect('/cekula/BerandaSekolah')->with('status2', 'Data profil berhasil terubah, silahkan cek kembali laman profil Anda');
 }
     public function logoutSekolah()
     {

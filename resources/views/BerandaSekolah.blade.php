@@ -97,7 +97,7 @@
                                     <h6><b>Jadwal kegiatan Belajar</b></h6>
                                     <h6>Senin s.d Jumat<span style="margin-right:15px"></span>{{ $info->senin }}
                                     </h6>
-                                    <h6>Sabtu<span style="margin-right:100px"></span>{{ $info->sabtu }}
+                                    <h6>Sabtu<span style="margin-right:85px"></span>{{ $info->sabtu }}
                                     </h6>
 
                                 </div>

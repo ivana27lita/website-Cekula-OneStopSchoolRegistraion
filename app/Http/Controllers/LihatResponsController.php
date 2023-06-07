@@ -41,7 +41,7 @@ class LihatResponsController extends Controller
         ]);
         return redirect()->action(
             [LihatResponsController::class, 'showLihatRespons'], ['form' => $idschool1]
-        )->with('s1', 'Data Telah tersimpan untuk mengecek silahkan klik xls, untuk umumkan silahkan klik umumkan');
+        )->with('s1', 'Data telah tersimpan! Untuk mendownload data dalam Excel silahkan klik xls, untuk umumkan silahkan klik Umumkan Hasil Pendaftaran');
         }else {
             return back()->with('s2', 'Data Sudah Diterima');
         }
@@ -68,7 +68,7 @@ class LihatResponsController extends Controller
         ]);
         return redirect()->action(
             [LihatResponsController::class, 'showLihatRespons'], ['form' => $idschool2]
-        )->with('s5', 'Telah diumumkan Daftar siswa yang terpilih');
+        )->with('s5', 'Telah diumumkan daftar siswa yang terpilih');
         }else{
             return redirect()->action(
                 [LihatResponsController::class, 'showLihatRespons'], ['form' => $idschool2]
