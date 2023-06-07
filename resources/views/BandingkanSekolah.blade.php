@@ -1,7 +1,7 @@
 
 @extends ('master')
 
-<body class="berandaortu">
+<body class="berandaortu"> oke
 <div class="loader loader--hidden"></div>
     <div id="navbar">
         <nav class="nav-bar">
