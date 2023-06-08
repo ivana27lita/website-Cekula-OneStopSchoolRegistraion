@@ -470,7 +470,7 @@
                 width: 100px;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: rgba(114, 221, 247,0.55);
+                background-color: #0c1992;
                 border-radius: 25px;
                 color: white;
                 font-weight: bold;
