@@ -29,7 +29,7 @@
         {{ csrf_field() }}
         <div class="content">
             <div class="bg-bandingkan1">
-                <h1 class="teksberanda1"><b>Bandingkan 2 Sekolah</b></h1>
+                <h1 class="teksberanda1"><b>Bandingkan 2 Sekolah oke</b></h1>
                 <div class="bg-bandingkan2">
                     <div class="row">
                         <div class="col-12">
