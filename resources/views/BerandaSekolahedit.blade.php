@@ -27,7 +27,7 @@
         </nav>
     </div>
 @foreach ($info2 as $infoo)
-    <img src="/data_infosekolah/{{ $infoo->banner }}" width=100% height=40%;
+    <img src="/data_infosekolah/{{ $infoo->banner }}" width=100%;
         style="margin-bottom:-200px;display: block;
     background: rgba(0, 0, 0,0.6);">
 
@@ -144,15 +144,15 @@
                 <div class="container">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="/data_infosekolah/{{ $infoo->img1}}" alt="Los Angeles" class="d-block"
+                            <img src="/data_infosekolah/{{ $infoo->img1}}" alt="Galeri 1" class="d-block"
                                 style="width:80%;margin-right:auto;margin-left:auto">
                         </div>
                         <div class="carousel-item">
-                            <img src="/data_infosekolah/{{ $infoo->img2}}" alt="Chicago" class="d-block"
+                            <img src="/data_infosekolah/{{ $infoo->img2}}" alt="Galeri 2" class="d-block"
                                 style="width:80%;margin-right:auto;margin-left:auto">
                         </div>
                         <div class="carousel-item">
-                            <img src="/data_infosekolah/{{ $infoo->img3}}" alt="New York" class="d-block"
+                            <img src="/data_infosekolah/{{ $infoo->img3}}" alt="Galeri 3" class="d-block"
                                 style="width:80%;margin-right:auto;margin-left:auto">
                         </div>
                     </div>@endforeach
@@ -180,9 +180,9 @@
                             style="color:#ff0000">{{ $error }}</span>
                     @endforeach
                 </div>
-                <h6> Disarankan img 1 sampai img 3 menggunakan rasio 1:1</h6>
+                <h6> Disarankan ukuran gambar untuk galeri foto menggunakan rasio 1:1</h6>
                 <label for="img1" class="form-label"
-                    style="color:rgb(0, 0, 0);font-family:poppins,sans-serif">img 1</label>
+                    style="color:rgb(0, 0, 0);font-family:poppins,sans-serif">Galeri 1</label>
                 <input type="file" class="button form-control inputmasuk2" id="img1" name="img1"
                     value="{{ old('akta') }}" required|file|image|mimes:jpeg,png,jpg|max:2048>
                     @foreach ($errors->get('img1') as $error)
@@ -193,7 +193,7 @@
                 @endforeach
                 <div class="mb-3 mt-3">
                     <label for="img2" class="form-label"
-                        style="color:rgb(0, 0, 0);font-family:poppins,sans-serif">img 2</label>
+                        style="color:rgb(0, 0, 0);font-family:poppins,sans-serif">Galeri 2</label>
                     <input type="file" class="button form-control inputmasuk2" id="img2" name="img2"
                         value="{{ old('kk') }}"required|file|image|mimes:jpeg,png,jpg|max:2048>
                         @foreach ($errors->get('img2') as $error)
@@ -205,7 +205,7 @@
                 </div>
                 <div class="mb-3 mt-3">
                     <label for="img3" class="form-label"
-                        style="color:rgb(0, 0, 0);font-family:poppins,sans-serif">img 3</label>
+                        style="color:rgb(0, 0, 0);font-family:poppins,sans-serif">Galeri 3</label>
                     <input type="file" class="button form-control inputmasuk2" id="img3" name="img3"
                         value="{{ old('foto') }}"required|file|image|mimes:jpeg,png,jpg|max:2048>
                         @foreach ($errors->get('img3') as $error)
@@ -234,7 +234,7 @@
 
                 <div class="col-4">
                     <div class="module-border-wrap">
-                        <div class="module">kuota <br>145 </div>
+                        <div class="module">Kuota <br>145 </div>
                     </div>
                 </div>
 

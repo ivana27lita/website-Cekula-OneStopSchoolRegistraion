@@ -28,14 +28,15 @@
         </nav>
     </div>
     @foreach ($info as $info)
-        <img src="/data_infosekolah/{{ $info->banner }}" width=100% height=40%;
+        <img src="/data_infosekolah/{{ $info->banner }}" width=100%;
             style="margin-bottom:-200px;display: block;
     background: rgba(0, 0, 0,0.6);"
-            alt="belum ada isinya silahkan edit dulu pada tab profil">
+            alt="Silakan menambahkan foto dengan fitur Edit pada tab Profil">
 
         <h1 style="color:white;padding-top:20px;margin-left:40px;font-family:Poppins,Sans-Serif">
+           <br>
             {{ auth()->user()->name }}
-            <br>0.4 km
+
         </h1>
 
         <div class="row" style="--bs-gutter-x: 0rem;">
@@ -199,13 +200,13 @@
 
                                         <div class="col-4">
                                             <div class="module-border-wrap">
-                                                <div class="module">kuota <br>{{ $sesii->kuotarombel }} </div>
+                                                <div class="module">Kuota <br>{{ $sesii->kuotarombel }} </div>
                                             </div>
                                         </div>
 
                                         <div class="col-7">
                                             <span
-                                                style="display:block;background-color:#AAEEFF;padding:10px;margin-top:15px;margin-botttom:10px;border-radius:20px;color:white;text-align:center;font-weight:bold;font-size:18px;">{{ date('d F', strtotime($sesii->created_at)) }}
+                                                style="display:block;background-color:rgba(146, 92, 217, 0.7);padding:10px;margin-top:15px;margin-botttom:10px;border-radius:20px;color:white;text-align:center;font-weight:bold;font-size:18px;">{{ date('d F', strtotime($sesii->created_at)) }}
                                                 - {{ date('d F', strtotime($sesii->TanggalSelesai)) }}</span>
                                             <span style="display:block;padding:10px;">Kuota :
                                                 {{ $sesii->kuotarombel }}<br> Pendaftar :  {{ $f3->count() }}</span>
@@ -244,7 +245,7 @@
                             </div>
 
 
-                            <div class="col-md-4 bg-formulir" style="background-color:#72DDF7;border-radius:20px;">
+                            <div class="col-md-4 bg-formulir" style="background-color:rgba(146, 92, 217, 0.7);border-radius:20px;">
 
                                 @forelse ($info6 as $sesii2)
                                     <h4
@@ -293,7 +294,7 @@
                                                     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
                                                     // Output the result in an element with id="demo"
-                                                    document.getElementById('jammundur').innerHTML = days + " hari : " + hours + " Jam : " +
+                                                    document.getElementById('jammundur').innerHTML = days + " Hari : " + hours + " Jam : " +
                                                         minutes + " Menit : " + seconds + " Detik ";
 
                                                     // If the count down is over, write some text
@@ -314,7 +315,7 @@
                                                 <span
                                                     style="display:block;background-color:rgba(179, 136, 235,0.7);padding:12px;margin:10px;border-radius:20px;">
                                                     <h5 style="color:rgb(255, 255, 255);text-align:center">Pendaftaran
-                                                        Belum dibuka</h5>
+                                                        Belum Dibuka</h5>
                                                 </span>
                                             </a>
                                         </div>

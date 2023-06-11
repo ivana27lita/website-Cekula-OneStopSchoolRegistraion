@@ -34,7 +34,7 @@
                     <br>
                     <div class="row">
                         <div class="col-6">
-                    <a  class="btn button6" value="Simpan Data" href="/cekula/editprofilsekolah/{{ auth()->user()->id }}">edit</a></div>
+                    <a  class="btn button6" value="Simpan Data" href="/cekula/editprofilsekolah/{{ auth()->user()->id }}">Edit</a></div>
                     </form> <div class="col-6"><form action="/cekula/logoutsekolah" method="POST">
                         {{ csrf_field() }}
                     <button type="submit" class="btn button6" value="Keluar Akun">Keluar Akun</button>

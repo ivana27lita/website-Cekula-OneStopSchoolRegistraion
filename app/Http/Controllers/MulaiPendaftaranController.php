@@ -34,7 +34,7 @@ class MulaiPendaftaranController extends Controller
         'created_at' =>Carbon::now(),
 
         ]);
-        return redirect('/cekula/BerandaSekolah')->with('status9', 'Sesi pendaftaran telah terbuka, untuk mengecek silahkan buka tab pendaftaran');
+        return redirect('/cekula/BerandaSekolah')->with('status9', 'Sesi pendaftaran telah dibuka, untuk mengecek silahkan buka tab pendaftaran');
     }
     public function showhapusSesi($idsekul3){
 

@@ -137,6 +137,10 @@
         }
     </script>
     <style>
+        .accordion-body {
+            text-align: justify
+        }
+
         .accordion-item:last-of-type {
 
     border-radius: 20px;
@@ -1326,7 +1330,7 @@ padding-bottom:auto;
                 width: 100px;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: rgba(114, 221, 247,0.55);
+                background-color:#838FFF;
                 border-radius: 25px;
                 color: white;
                 font-weight: bold;
@@ -1625,7 +1629,7 @@ padding-bottom:auto;
                 width: 100px;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: rgba(114, 221, 247,0.55);
+                background-color: #838FFF;
                 border-radius: 25px;
                 color: white;
                 font-weight: bold;

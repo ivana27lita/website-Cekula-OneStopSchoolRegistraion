@@ -25,13 +25,13 @@
         </nav>
     </div>
     @foreach ($info as $informasi)
-        <img src="/data_infosekolah/{{ $informasi->banner }}" width=100% height=40%;
+        <img src="/data_infosekolah/{{ $informasi->banner }}" width=100%;
             style="margin-bottom:-200px;display: block;
     background: rgba(0, 0, 0,0.6);">
     @endforeach
     @foreach ($in2 as $infoo)
         <h1 style="color:white;padding-top:20px;margin-left:40px;font-family:Poppins,Sans-Serif">
-            {{ $infoo->name }}<br>0.4 km
+           <br> {{ $infoo->name }}
         </h1>
     @endforeach
     <div class="row" style="--bs-gutter-x: 0rem;">
@@ -61,7 +61,7 @@
                                 <h6><b>Jadwal kegiatan Belajar</b></h6>
                                 <h6>Senin s.d Jumat<span style="margin-right:32px"></span>{{ $informasi->senin }}
                                 </h6>
-                                <h6>Sabtu<span style="margin-right:100px"></span>{{ $informasi->sabtu }}
+                                <h6>Sabtu<span style="margin-right:103px"></span>{{ $informasi->sabtu }}
                                 </h6>
 
 
@@ -116,15 +116,15 @@
                                 <div class="container">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="/data_infosekolah/{{ $informasi->img1 }}" alt="Los Angeles"
+                                            <img src="/data_infosekolah/{{ $informasi->img1 }}" alt="Galeri 1"
                                                 class="d-block" style="width:80%;margin-right:auto;margin-left:auto">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="/data_infosekolah/{{ $informasi->img2 }}" alt="Chicago"
+                                            <img src="/data_infosekolah/{{ $informasi->img2 }}" alt="Galeri 2"
                                                 class="d-block" style="width:80%;margin-right:auto;margin-left:auto">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="/data_infosekolah/{{ $informasi->img3 }}" alt="New York"
+                                            <img src="/data_infosekolah/{{ $informasi->img3 }}" alt="Galeri 3"
                                                 class="d-block" style="width:80%;margin-right:auto;margin-left:auto">
                                         </div>
                                     </div>
@@ -152,13 +152,13 @@
 
                                     <div class="col-4">
                                         <div class="module-border-wrap">
-                                            <div class="module">kuota <br>{{ $sesii->kuotarombel }} </div>
+                                            <div class="module">Kuota <br>{{ $sesii->kuotarombel }} </div>
                                         </div>
                                     </div>
 
                                     <div class="col-7">
                                         <span
-                                            style="display:block;background-color:#AAEEFF;padding:10px;margin-top:15px;margin-botttom:10px;border-radius:20px;color:white;text-align:center;font-weight:bold;font-size:18px;">{{ date('d F', strtotime($sesii->created_at)) }}
+                                            style="display:block;background-color:rgba(146, 92, 217, 0.7);padding:10px;margin-top:15px;margin-botttom:10px;border-radius:20px;color:white;text-align:center;font-weight:bold;font-size:18px;">{{ date('d F', strtotime($sesii->created_at)) }}
                                             - {{ date('d F', strtotime($sesii->TanggalSelesai)) }}</span>
                                         <span style="display:block;padding:10px;">Kuota :
                                             {{ $sesii->kuotarombel }}<br> Pendaftar : {{ $f3->count() }} </span>

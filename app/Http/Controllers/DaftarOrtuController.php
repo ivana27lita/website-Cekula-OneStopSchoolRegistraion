@@ -26,7 +26,7 @@ class DaftarOrtuController extends Controller
             'name' => 'Nama Orang Tua Wajib Diisi',
             'email.required' => 'Email Wajib Diisi',
             'email.unique' => 'Email Sudah Ada',
-            'password.required' => 'Password wajib diisi',
+            'password.required' => 'Password Wajib Diisi',
             'password.min' => 'Minimal Password 4',
 
         ]);
@@ -36,6 +36,6 @@ class DaftarOrtuController extends Controller
             'password' => Hash::make($request->password),
             'created_at' => Carbon::now(),
         ]);
-        return redirect('/cekula/masukorangtua')->with('status', 'Akun berhasil terdaftar silahkan login');
+        return redirect('/cekula/masukorangtua')->with('status', 'Akun berhasil terdaftar, silahkan masuk dengan akun yang telah dibuat.');
     }
 }

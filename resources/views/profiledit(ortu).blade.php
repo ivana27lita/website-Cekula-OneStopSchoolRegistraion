@@ -34,7 +34,7 @@
                     </div>
                     <div class="mb-4 mt-3">
                         <label for="password" class="form-label"
-                            style="color:rgb(0, 0, 0);font-family:poppins,sans-serif">Kata Sandi baru</label>
+                            style="color:rgb(0, 0, 0);font-family:poppins,sans-serif">Kata Sandi Baru</label>
                         <div class="input-group mb-3">
                             <input type="password" class="form-control inputmasuk2" id="password"
                                 name="password" style="margin-bottom:-10px;" value="">

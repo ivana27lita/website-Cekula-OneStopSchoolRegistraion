@@ -27,14 +27,18 @@
         <div id="content">
             <div class="flex-container2">
                 <div class="c2">
-                    <h1>Sekolah 1</h1>
+                    <h1><b>
+                        @foreach ($namasekolah1 as $in)
+                        {{ $in->name }}
+                    @endforeach
+                    </b></h1>
 
                     <button class="btn button4">Kuota Siswa</button>
                     <div class="panel">
                         <h6>@forelse ($kuota as $k1)
                             {{ $k1->kuotarombel }}
                             @empty
-                           sekolah belum membuka sesi pendaftaran
+                           Sekolah belum membuka sesi pendaftaran
                         @endforelse</h6>
                     </div>
 
@@ -44,7 +48,7 @@
                             {{ date('d F', strtotime($k1->created_at)) }}
                             - {{ date('d F', strtotime($k1->TanggalSelesai)) }}
                         @empty
-                        sekolah belum membuka sesi pendaftaran
+                        Sekolah belum membuka sesi pendaftaran
                         @endforelse
                         </h6>
                     </div>
@@ -86,13 +90,17 @@
                     VS
                 </div>
                 <div class="c2">
-                    <h1>Sekolah 2</h1>
+                    <h1><b>
+                        @foreach ($namasekolah2 as $in2)
+                        {{ $in2->name }}
+                    @endforeach
+                    </b></h1>
                         <button class="btn button5">Kuota Siswa</button>
                         <div class="panel2">
                             <h6>@forelse ($kuota2 as $k2)
                                 {{ $k2->kuotarombel }}
                                 @empty
-                               sekolah belum membuka sesi pendaftaran
+                               Sekolah belum membuka sesi pendaftaran
                             @endforelse</h6>
                         </div>
 
@@ -102,7 +110,7 @@
                                 {{ date('d F', strtotime($k2->created_at)) }}
                                 - {{ date('d F', strtotime($k2->TanggalSelesai)) }}
                             @empty
-                            sekolah belum membuka sesi pendaftaran
+                            Sekolah belum membuka sesi pendaftaran
                             @endforelse</h6>
                         </div>
 

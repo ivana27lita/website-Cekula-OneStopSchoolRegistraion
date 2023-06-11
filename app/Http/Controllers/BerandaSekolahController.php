@@ -91,7 +91,7 @@ class BerandaSekolahController extends Controller
 
 	]);
 
-	return redirect('/cekula/BerandaSekolah')->with('status3', 'Selamat Informasi pada tab profil anda telah diperbarui, silahkan cek kembali');
+	return redirect('/cekula/BerandaSekolah')->with('status3', 'Selamat! Informasi pada tab profil Anda telah diperbarui. Silahkan cek kembali');
 }
 public function editinformasisekolah2($idsekula){
     $info4=DB::table('informasi_sekolah')->where('id_sekolah',$idsekula)->get();
@@ -158,6 +158,6 @@ DB::table('informasi_sekolah')->where('id_sekolah',$idsekula2)->update([
 
 ]);
 
-return redirect('/cekula/BerandaSekolah')->with('status4', 'Selamat Informasi pada tab pendaftaran anda telah diperbarui, silahkan cek kembali');
+return redirect('/cekula/BerandaSekolah')->with('status4', 'Selamat! Informasi pada tab pendaftaran Anda telah diperbarui. Silahkan cek kembali');
 }
 }

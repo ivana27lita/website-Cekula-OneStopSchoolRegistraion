@@ -121,7 +121,7 @@
                 <div class="col-7 float-end"><a type="button" class="btn button14 float-end " href="/cekula/export-data"><i
                             class="fa fa-database" style="font-size:14px"></i> .xls</a>
                     <a type="button" class="btn button14 float-end" style="margin-right:10px;"
-                        href="https://drive.google.com/drive/folders/1q1HjjxATyMXCvElICeryeQR5-AyFLt59">Tutor Mail Merge</a>
+                        href="https://www.youtube.com/watch?v=_Efb_oMgxEs" target="blank">Tutor Mail Merge</a>
                 </div>
             </div>
             <br>

@@ -34,11 +34,11 @@ class DaftarSekolahController extends Controller
             'name' => 'Nama Sekolah Wajib Diisi',
             'email.required' => 'Email Wajib Diisi',
             'email.unique' => 'Email Sudah Ada',
-            'password' => 'password wajib diisi',
-            'alamat' => 'alamat wajib diisi',
-            'typePhone.required' => 'Telepon Kantor wajib diisi',
+            'password' => 'Password Wajib Diisi',
+            'alamat' => 'Alamat Wajib Diisi',
+            'typePhone.required' => 'Telepon Kantor Wajib Diisi',
             'typePhone.max_digits' => 'Tidak boleh lebih dari 12',
-            'typePhone.numeric' => 'Nomor telepon harus angka',
+            'typePhone.numeric' => 'Nomor Telepon Harus Angka',
             'npsn' => 'NPSN Wajib Diisi',
 
         ]);
@@ -105,7 +105,7 @@ class DaftarSekolahController extends Controller
             ])->onlyInput('name' && 'npsn' && 'email');
         } else {
             return back()->withErrors([
-                'name' => 'Nama Sekolah tidak sesuai database Kemendikbud',
+                'name' => 'Nama sekolah tidak sesuai database Kemendikbud',
                 'npsn' => 'NPSN tidak sesuai database Kemendikbud',
             ])->onlyInput('name' && 'npsn');
         }

@@ -41,7 +41,7 @@ class LihatResponsController extends Controller
         ]);
         return redirect()->action(
             [LihatResponsController::class, 'showLihatRespons'], ['form' => $idschool1]
-        )->with('s1', 'Data telah tersimpan! Untuk mendownload data dalam Excel silahkan klik xls, untuk umumkan silahkan klik Umumkan Hasil Pendaftaran');
+        )->with('s1', 'Data telah tersimpan! Untuk mengunduh data dalam Excel silahkan klik xls, untuk umumkan silahkan klik Umumkan Hasil Pendaftaran');
         }else {
             return back()->with('s2', 'Data Sudah Diterima');
         }

@@ -17,7 +17,7 @@ class CekulaOrtuController extends Controller
             'email' => 'required|email',
             'password' => ['required']
         ], [
-            'email.required' => 'Email Wajib Diisi',
+            'email.required' => 'Email wajib diisi',
             'email.email' => 'Harus diisi dengan format @gmail.com',
             'password' => 'Password wajib diisi',
         ]);

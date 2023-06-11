@@ -13,7 +13,7 @@
                 <div class="bg-bandingkan2">  @if (count($errors) > 0)
           <div class="alert alert-primary alert-dismissible fade show">
             <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Silahkan Cek kembali data (lebih teliti)</strong>
+            <strong>Silahkan cek kembali data yang belum terisi (Lebih Teliti)</strong>
         </div>
           @endif
                     <h1 class="teksberanda1" style="color:6070FF"><b>Formulir</b></h1><div class="ScrollStyle">

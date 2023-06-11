@@ -13,11 +13,11 @@ class ExportController extends Controller
 {
     $int = DB::table('formulirsimpan')->where('id_school1',auth()->user()->id)->value('id_school1');
     if (DB::table('formulirsimpan')->where('id_school1',auth()->user()->id)->exists()){
-        return Excel::download(new tabelExport($int), 'Data Siswa diterima.xlsx');
+        return Excel::download(new tabelExport($int), 'Data Siswa Diterima.xlsx');
     }else{
         return redirect()->action(
             [LihatResponsController::class, 'showLihatRespons'], ['form' => auth()->user()->id]
-        )->with('s14', 'Belum ada Formulir yang diterima atau disimpan');
+        )->with('s14', 'Belum ada formulir yang diterima atau disimpan');
     }
 
 }

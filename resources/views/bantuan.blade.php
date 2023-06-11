@@ -39,12 +39,12 @@
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  Accordion Item #1
+                                    Apa itu fitur Bandingkan?
                                 </button>
                               </h2>
                               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Fitur Bandingkan dapat diakses oleh setiap pengguna yang telah memiliki dan masuk ke dalam akun mereka sebagai “Orang Tua”. Fitur ini memungkinkan orang tua untuk  membandingkan dua sekolah sekaligus dengan memasukkan nama sekolah yang hendak dibandingkan sehingga mempermudah orang tua untuk membandingkan kedua sekolah secara langsung.
                                 </div>
                               </div>
                             </div>
@@ -53,12 +53,12 @@
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                  Accordion Item #2
+                                    Bagaimana cara melihat apabila pendaftaran anak saya sudah diterima?
                                 </button>
                               </h2>
                               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample5">
                                 <div class="accordion-body">
-                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Setelah melakukan pendaftaran ke sekolah melalui pengisiian formulir pada website Cekula, orang tua dapat melihat pengumuman hasil penerimaan anak pada laman sekolah yang dituju khususnya pada bagian “Pengumuman” apabila pihak sekolah telah mengumumkan hasil pendaftaran.
                                 </div>
                               </div>
                             </div>
@@ -67,12 +67,12 @@
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  Accordion Item #3
+                                    Apa yang terjadi apabila masa pendaftaran siswa baru pada sekolah sudah lewat?
                                 </button>
                               </h2>
                               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample6">
                                 <div class="accordion-body">
-                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Sayang sekali, apabila masa pendaftaran siswa baru pada sekolah sudah lewat, Anda sudah tidak dapat melakukan pengumpulan formulir pendaftaran ke pihak sekolah. Harap perhatikan masa sesi pendaftaran dan juga kuota rombongan belajar yang telah ditetapkan pihak sekolah.
                                 </div>
                               </div>
                             </div>
@@ -83,12 +83,12 @@
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                  Accordion Item #1
+                                    Bagaimana cara melakukan pendaftaran ke sekolah?
                                 </button>
                               </h2>
                               <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample2">
                                 <div class="accordion-body">
-                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Ayah dan Bunda dapat mendaftarkan buah hati Anda pada sekolah yang telah terdaftar pada website Cekula dengan mengisi formulir pendaftaran yang telah disediakan pada laman informasi sekolah sebelum sekolah melakukan penutupan pendaftarannya. Harap persiapkan dokumen yang dibutuhkan dan perhatikan persyaratan pendaftaran yang berlaku pada sekolah juga ya!
                                 </div>
                               </div>
                             </div>
@@ -97,12 +97,12 @@
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="headingFive">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                  Accordion Item #2
+                                    Bagaimana cara melihat persyaratan pendaftaran sekolah?
                                 </button>
                               </h2>
                               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample3">
                                 <div class="accordion-body">
-                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Ayah dan Bunda dapat melihat persyaratan pendaftaran sekolah untuk sekolah yang dituju pada laman informasi sekolah tersebut khusunya pada bagian persyaratan. Anda dapat membaca persyaratan serta dokumen yang harus dipersiapkan sebelum mendaftar ke sekolah melalui pengisian formulir yang telah disediakan.
                                 </div>
                               </div>
                             </div>
@@ -111,12 +111,13 @@
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="headingSix">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                  Accordion Item #3
+                                    Bagaimana cara mengubah kata sandi akun?
                                 </button>
                               </h2>
                               <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample4">
                                 <div class="accordion-body">
-                                  This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the accordion-body , though the transition does limit overflow.
+                                    Pengguna dapat mengubah data kredensial akun mereka pada laman profil pengguna dan klik “Edit”, maka pengguna akan diarahkan pada laman mode edit dan dapat melakukan perubahan data kredensial akun.
+
                                 </div>
                               </div>
                             </div>
