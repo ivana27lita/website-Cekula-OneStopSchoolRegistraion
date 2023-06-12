@@ -33,7 +33,7 @@
     background: rgba(0, 0, 0,0.6);"
             alt="Silakan menambahkan foto dengan fitur Edit pada tab Profil">
 
-        <h1 style="color:white;padding-top:20px;margin-left:40px;font-family:Poppins,Sans-Serif">
+        <h1 class="teksbarubgt">
            <br>
             {{ auth()->user()->name }}
 
@@ -92,7 +92,7 @@
 
                                     <div style="margin-bottom:20px;"></div>
                                     <h6><b>Hubungi Kami</b></h6>
-                                    <h6>{{ $info->noTelp }}</h6>
+                                    <h6>(+62) {{ $info->noTelp }}</h6>
                                 </div>
                                 <div style="margin-top:20px;background-color:#F1F1F1;border-radius:20px;padding:20px;">
                                     <h6><b>Jadwal kegiatan Belajar</b></h6>

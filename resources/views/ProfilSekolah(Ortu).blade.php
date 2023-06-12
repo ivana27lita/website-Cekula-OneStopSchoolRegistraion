@@ -23,14 +23,14 @@
                 <li><a href="/cekula/profilpenggunaortu"><i class="fa fa-user-circle-o"style='font-size:24px;color:#000000;cursor: pointer;'></i></a></li>
             </div>
         </nav>
-    </div>
+    </div><div class="overlay">
     @foreach ($info as $informasi)
         <img src="/data_infosekolah/{{ $informasi->banner }}" width=100%;
             style="margin-bottom:-200px;display: block;
-    background: rgba(0, 0, 0,0.6);">
+    background: rgba(0, 0, 0,0.6);object-fit:cover;opacity:1.2"></div>
     @endforeach
     @foreach ($in2 as $infoo)
-        <h1 style="color:white;padding-top:20px;margin-left:40px;font-family:Poppins,Sans-Serif">
+        <h1 class="teksbarubgt">
            <br> {{ $infoo->name }}
         </h1>
     @endforeach
@@ -54,7 +54,7 @@
                                     {{ $informasi->alamatSekolah }}
                                     <div style="margin-bottom:20px;"></div>
                                     <h6><b>Hubungi Kami</b></h6>
-                                    <h6>{{ $informasi->noTelp }}</h6>
+                                    <h6>(+62) {{ $informasi->noTelp }}</h6>
 
                             </div>
                             <div style="margin-top:20px;background-color:#F1F1F1;border-radius:20px;padding:20px;">

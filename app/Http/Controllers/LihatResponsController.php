@@ -10,13 +10,13 @@ class LihatResponsController extends Controller
 {
     Public function showLihatRespons()
 
-    {   $paginate=10;
+    {   $paginate=5;
         $forms = DB::table('respons_formulir')->where('id_sekolah2',auth()->user()->id)->paginate($paginate);
+        $hehe = DB::table('respons_formulir')->where('id_sekolah2',auth()->user()->id)->get();
         $fnew= DB::table('respons_formulir')->where('id_sekolah2',auth()->user()->id)->value('id_sekolah2');
         $sf = DB::table('formulirsimpan')->where('id_school1',auth()->user()->id)->get('idForm')->toArray();
         $fff=  DB::table('umumkan')->where('id_school2',auth()->user()->id)->get();
-
-        return view('LihatRespons',['forms'=>$forms,'sf'=>$sf,'fnew'=>$fnew,'fff'=>$fff]);
+        return view('LihatRespons',['forms'=>$forms,'sf'=>$sf,'fnew'=>$fnew,'fff'=>$fff,'hehe'=>$hehe]);
     }
     Public function showLihatFormulir($form2)
     {    $form2 = DB::table('respons_formulir')->where('idFormulir',$form2)->get();

@@ -422,6 +422,13 @@
         }
 
         @media (max-width: 768px) {
+            .teksbarubgt{
+                color:white;
+                padding-top:110px;
+                margin-left:40px;
+                font-family:'Poppins','Sans-Serif';
+                text-shadow: rgb(0, 0, 0) 10px 0 20px;
+            }
             .button15 {
                     display:block;
                     width: 200px;
@@ -1418,6 +1425,13 @@ padding-bottom:auto;
 
         @media (max-width: 6500px) {
             @media (min-width:769px) {
+                .teksbarubgt{
+                color:white;
+                padding-top:20px;
+                margin-left:40px;
+                font-family:'Poppins','Sans-Serif';
+                text-shadow: rgb(0, 0, 0) 10px 0 20px;
+            }
                 .button16 {
                     display:block;
                     width: 200px;

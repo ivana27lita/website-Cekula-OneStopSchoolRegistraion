@@ -90,7 +90,7 @@
                 <div class="col-6">
 
                     <h5 class="teksberanda2 bg-bandingkan5 float-start" style="color:6070FF"><b> Jumlah Pendaftar:
-                            {{ $forms->count() }}</b></h5>
+                            {{ $hehe->count() }}</b></h5>
 
 
 
@@ -117,7 +117,8 @@
             </div>
 
             <div class="row">
-                <div class="col-5">{{ $forms->links('pagination::bootstrap-5') }}</div>
+
+                <div class="col-5" class="float-start">{{ $forms->links('pagination::bootstrap-4') }}</div>
                 <div class="col-7 float-end"><a type="button" class="btn button14 float-end " href="/cekula/export-data"><i
                             class="fa fa-database" style="font-size:14px"></i> .xls</a>
                     <a type="button" class="btn button14 float-end" style="margin-right:10px;"

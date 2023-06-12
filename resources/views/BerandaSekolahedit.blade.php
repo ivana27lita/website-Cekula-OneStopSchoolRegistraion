@@ -33,11 +33,11 @@
 
 
 
-    <h1 style="color:white;padding-top:20px;margin-left:40px;font-family:Poppins,Sans-Serif">
+    <h1 class="teksbarubgt">
         @foreach ($info3 as $info)
-            {{ $info->name }}
+         <br>    {{ $info->name }}
         @endforeach
-        <br>0.4 km
+
     </h1>
 
     <div class="row" style="--bs-gutter-x: 0rem;">

@@ -27,17 +27,14 @@
         </nav>
     </div>
 @foreach ($info4 as $infoo)
-    <img src="/data_infosekolah/{{ $infoo->banner }}" width=100% height=40%
+    <img src="/data_infosekolah/{{ $infoo->banner }}" width=100%
         style="margin-bottom:-200px;display: block;
     background: rgba(0, 0, 0,0.6);">
-
-
-
-    <h1 style="color:white;padding-top:20px;margin-left:40px;font-family:Poppins,Sans-Serif">
+    <h1 class="teksbarubgt">
         @foreach ($info5 as $info)
-            {{ $info->name }}
+         <br> {{ $info->name }}
         @endforeach
-        <br>0.4 km
+
     </h1>
 
     <div class="row" style="--bs-gutter-x: 0rem;">
@@ -119,7 +116,8 @@
                             @else
                             @endif
                         @if($infoo->kelas=="kelas")
-                        <img src=/data_file/Group154.png width=20px height=auto style="margin-right:10px;">{{ $info->kelas }}
+                        <img src=/data_file/Group154.png width=20px height=auto
+                        style="margin-right:10px;">Kelas <br style="margin-bottom:15px;">
                         @else
                         @endif
 

@@ -162,7 +162,7 @@
                         @continue($namasekolah->id >= 1 && $namasekolah->id <= 18)
                         <button>
 
-                            @if($namasekolah->id >= 19 && $namasekolah->id <= 27)
+                            @if($namasekolah->id >= 19 && $namasekolah->id <= 29)
                             <a href="/cekula/profilsekolah/{{ $namasekolah->id }}">
                                 <div class="row">
                                     <div class="col-4">
@@ -192,7 +192,7 @@
                             </a>
                             @endif
 
-                        </button> @break($namasekolah->id == 27)
+                        </button> @break($namasekolah->id == 28)
                         @endforeach
                     </div>
                 </div>

@@ -45,10 +45,10 @@ class DaftarSekolahController extends Controller
         $seninjumat="07.00 - 10.00 WIB";
         $sabtu="07.00 - 09.00 WIB";
         $deskripsifasilitas="TK Sepuluh Nopember memberikan fasilitas pendidikan yang mumpuni. hal itu sebagai penunjang untuk pendidikan anak didik agar para siswa dapat belajar dengan maksimal dan tercukupi.";
-        $playground="Playground";
-        $kolamrenang="Kolam Renang";
-        $funlearning="Fun Learning";
-        $kelas ="Kelas";
+        $playground="playground";
+        $kolamrenang="kolamrenang";
+        $funlearning="funlearning";
+        $kelas ="kelas";
         $persyaratan1= "Informasi dan pendaftaran terdapat dalam menu profil";
         $persyaratan2="Membeli formulir PPDB Rp 125.000";
         $persyaratan3=" Pembayaran dilakukan dengan mentransfer uang formulir ke nomor Virtual Account CIMB Niaga (mohon cek email yang telah didaftarkan untuk mengetahui nomor VA pembayaran formulir, setelah melakukan pembayaran dapat mengupload bukti transfer pada formulir).";
