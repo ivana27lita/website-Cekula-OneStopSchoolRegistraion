@@ -107,9 +107,9 @@ Route::get('/cekula/editinformasisekolah2/{idsekula}', [BerandaSekolahController
 Route::post('/cekula/simpaninformasisekolah2/{idsekula2}', [BerandaSekolahController::class, 'simpaninformasisekolah2'])->middleware('auth:sekolah')->name('beranda');
 
 //Route Sesi
-Route::get('/cekula/sesimulaidaftar/{idsesi}', [MulaiPendaftaranController::class, 'showOpenSesi'])->middleware('auth:sekolah')->name('beranda');
-Route::post('/cekula/berhasilbukasesi/{idsesi2}', [MulaiPendaftaranController::class, 'simpansesi'])->middleware('auth:sekolah')->name('beranda');
-Route::get('/cekula/hapusmulaidaftar/{idsesi3}', [MulaiPendaftaranController::class, 'showhapusSesi'])->middleware('auth:sekolah')->name('beranda');
+Route::get('/cekula/sesimulaidaftar', [MulaiPendaftaranController::class, 'showOpenSesi'])->middleware('auth:sekolah')->name('beranda');
+Route::post('/cekula/berhasilbukasesi', [MulaiPendaftaranController::class, 'simpansesi'])->middleware('auth:sekolah')->name('beranda');
+Route::get('/cekula/hapusmulaidaftar', [MulaiPendaftaranController::class, 'showhapusSesi'])->middleware('auth:sekolah')->name('beranda');
 
 Route::get('/cekula/export-data', [ExportController::class, 'index'])->middleware('auth:sekolah')->name('beranda');
 //Route Error

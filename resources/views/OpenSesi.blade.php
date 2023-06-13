@@ -31,7 +31,7 @@
 
 
     @section('tengah')
-    <form action="/cekula/berhasilbukasesi/{{ $sesii->id_sekolah }}" method="POST">
+    <form action="/cekula/berhasilbukasesi" method="POST">
         {{ csrf_field() }}@endforeach
         <div class="content">
             <div class="bg-bandingkan3">

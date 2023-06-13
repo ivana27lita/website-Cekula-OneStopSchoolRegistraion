@@ -335,7 +335,7 @@
                                     <div class="col-5 center">
 
                                         <a class="btn button12" type="submit"
-                                            href="/cekula/hapusmulaidaftar/{{ $info->id_sekolah }}">Tutup
+                                            href="/cekula/hapusmulaidaftar">Tutup
                                             <br>Pendaftaran</a>
 
                                     </div>
@@ -347,7 +347,7 @@
                                     <div class="col-5 center">
 
                                         <a class="btn button11" type="submit"
-                                            href="/cekula/sesimulaidaftar/{{ $info->id_sekolah }}">Mulai<br>Pendaftaran</a>
+                                            href="/cekula/sesimulaidaftar">Mulai<br>Pendaftaran</a>
 
                                     </div>
                                 @endforelse

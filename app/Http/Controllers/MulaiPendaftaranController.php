@@ -9,12 +9,12 @@ use Illuminate\Support\Carbon;
 
 class MulaiPendaftaranController extends Controller
 {
-    public function showOpenSesi($idsesi)
+    public function showOpenSesi()
     {
-        $sesi = DB::table('informasi_sekolah')->where('id_sekolah',$idsesi)->get();
+        $sesi = DB::table('informasi_sekolah')->where('id_sekolah',auth()->user()->id)->get();
         return view('OpenSesi',['sesi'=>$sesi]);
     }
-    public function simpansesi(Request $request,$idsesi2)
+    public function simpansesi(Request $request)
     {
         $request->validate([
 
@@ -28,7 +28,7 @@ class MulaiPendaftaranController extends Controller
 
         ]);
         DB::connection('mysql')->table('bukasesi')->insert([
-        'id_sekula' => $idsesi2,
+        'id_sekula' => auth()->user()->id,
         'TanggalSelesai' => $request->stop,
         'kuotarombel' => $request->kuota,
         'created_at' =>Carbon::now(),
@@ -36,9 +36,9 @@ class MulaiPendaftaranController extends Controller
         ]);
         return redirect('/cekula/BerandaSekolah')->with('status9', 'Sesi pendaftaran telah dibuka, untuk mengecek silahkan buka tab pendaftaran');
     }
-    public function showhapusSesi($idsekul3){
+    public function showhapusSesi(){
 
-	DB::table('bukasesi')->where('id_sekula',$idsekul3)->delete();
+	DB::table('bukasesi')->where('id_sekula',auth()->user()->id)->delete();
 
 	// alihkan halaman ke halaman pegawai
 	return redirect('/cekula/BerandaSekolah')->with('status10', 'Masa pendaftaran telah ditutup');
