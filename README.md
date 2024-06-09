@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## About Cekula
+
+"Cekula" is a web platform designed to simplify the registration process for elementary school children by parents or guardians. It provides essential information about school facilities, enrollment schedules, and offers a convenient registration form. The primary goal of "Cekula" is to enhance the efficiency of the registration process and improve accessibility to school-related information.
+
+Built using the Laravel framework, "Cekula" benefits from Laravel's robust features and elegant syntax, making it an ideal choice for developing web applications. Laravel's MVC architecture ensures clean code organization, while its built-in tools for authentication, routing, and ORM streamline development tasks. With Laravel, developers can rapidly build and maintain a scalable and user-friendly web platform like "Cekula."
+
+For a detailed explanation of our project, you can watch the YouTube video [here](https://youtu.be/U7rmqrfvHds?si=R7Y7EyCFXiB62WKB).
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
