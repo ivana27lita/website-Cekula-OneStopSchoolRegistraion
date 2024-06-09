@@ -1,6 +1,6 @@
 ## About Cekula
 
-"Cekula" is a web platform designed to simplify the registration process for elementary school children by parents or guardians. It provides essential information about school facilities, enrollment schedules, and offers a convenient registration form. The primary goal of "Cekula" is to enhance the efficiency of the registration process and improve accessibility to school-related information.
+"Cekula" is a web platform designed to simplify the registration process for kindergarten school children by parents or guardians. It provides essential information about school facilities, enrollment schedules, and offers a convenient registration form. The primary goal of "Cekula" is to enhance the efficiency of the registration process and improve accessibility to school-related information.
 
 Built using the Laravel framework, "Cekula" benefits from Laravel's robust features and elegant syntax, making it an ideal choice for developing web applications. Laravel's MVC architecture ensures clean code organization, while its built-in tools for authentication, routing, and ORM streamline development tasks. With Laravel, developers can rapidly build and maintain a scalable and user-friendly web platform like "Cekula."
 
